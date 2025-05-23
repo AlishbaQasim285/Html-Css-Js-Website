@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple website from htm,css,js</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./new.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+ 
+  </head>
+<script src="./js.js"></script>
+  <body>
+    <div class="bar">
+      <div class="barleft">
+        <a href="#">Home</a> / <a href="#">Career</a> / <a href="#">Terms</a> /
+        <a href="#">Privacy</a>
+      </div>
+      <div class="barright">
+        <span>Follow us: </span>
+        <a href="#"><i class="fab fa-facebook"></i></a>|
+        <a href="#"><i class="fab fa-twitter"></i></a>|
+        <a href="#"><i class="fab fa-linkedin"></i></a>|
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="icon">
+          <h1><i class="fas fa-laptop-code"></i> DGcom</h1>
+        </div>
+        <div class="info">
+          <div class="item">
+            <i class="far fa-clock"></i>
+            <div>
+              <p style="color: #777">Opening Hour</p>
+              <p>Mon - Fri, 8:00 - 9:00</p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <p style="color: #777">Call Us</p>
+              <p>+012 345 6789</p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="far fa-envelope"></i>
+            <div>
+              <p style="color: #777">Email Us</p>
+              <p>info@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="#" style="color: black">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="custom-btn btn-1">Get Started</button>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleControlsNoTouching"
+      class="carousel slide"
+      data-bs-touch="false"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./Images/carousel-1.jpg"
+            class="d-block w-100 brightness"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-none d-md-block container1"
+            class="container"
+            !
+            important
+          >
+            <h3 style="font-weight: bold">WE ARE LEADER IN</h3>
+            <h1 style="font-weight: 900; font-size: 80px">
+              Creative & Innovative
+            </h1>
+            <h1 style="padding-bottom: 20%; font-weight: 900; font-size: 80px">
+              Digital Solution
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Images/carousel-2.jpg"
+            class="d-block w-100 brightness"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block container1">
+            <h3 style="font-weight: bold">WE ARE LEADER IN</h3>
+            <h1 style="font-weight: 900; font-size: 80px">
+              Creative & Innovative
+            </h1>
+            <h1 style="padding-bottom: 20%; font-weight: 900; font-size: 80px">
+              Digital Solution
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Images/carousel-3.jpg"
+            class="d-block w-100 brightness"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block container1">
+            <h3 style="font-weight: bold">WE ARE LEADER IN</h3>
+            <h1 style="font-weight: 900; font-size: 80px">
+              Creative & Innovative
+            </h1>
+            <h1 style="padding-bottom: 20%; font-weight: 900; font-size: 80px">
+              Digital Solution
+            </h1>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section>
+    <div id="cards">
+      <div class="card">
+        <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
+        <p>Years Experience</p>
+        <span class="counter">0</span>
+      </div>
+      <div class="card card-1">
+        <i class="fa fa-users-cog fa-4x text-primary mb-4"></i>
+        <p>Team Members</p>
+        <span class="counter">0</span>
+      </div>
+      <div class="card card-2"><i class="fa fa-users fa-4x text-primary mb-4"></i>
+        <p>Satisfied Clients</p>
+        <span class="counter">0</span>
+      </div>
+      <div class="card card-3"><i class="fa fa-check fa-4x text-primary mb-4"></i>
+        <p>Projects Done</p>
+        <span class="counter">0</span>
+      </div>
+      </div>
+      <script>
+        function counterCount(element, endValue) {
+  let currentValue = 0;
+  const interval = setInterval(() => {
+    currentValue += 1;
+    element.textContent = currentValue;
+    if (currentValue === endValue) {
+      clearInterval(interval);
+    }
+  }, -1); 
+}
+const yearsExperience = document.querySelector('.card .counter');
+counterCount(yearsExperience, 1234); 
+
+const teamMembers = document.querySelector('.card-1 .counter');
+counterCount(teamMembers, 1234); 
+
+const satisfiedClients = document.querySelector('.card-2 .counter');
+counterCount(satisfiedClients, 1234); 
+
+const projectsDone = document.querySelector('.card-3 .counter');
+counterCount(projectsDone, 1234); 
+      </script>
+</section>
+
+    <h1> <strong style="display: flex; justify-content: center;padding-top: 50PX; color:hsl(203, 100%, 50%) ;" 
+      class="double-underline">About Us </strong></h1>
+    <section class="sectionThree" id="About">
+      <div class="sectionThreetext">
+        <div class="sectionThreeImage">
+       <div class="zoom">
+        <div  style="width: 80%;"  class="image-container">
+          <img src="./Images/about.jpg" alt="" class="image">
+        </div>
+       </div>
+        </div>
+
+        <div class="text">
+          <h1 style="color: black;">
+            #1 Digital Solution With <span style="color: hsl(203, 100%, 50%);"> 10  <br />
+            Years </span> Of Experience
+          </h1>
+          <p>
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+            diam <br />
+            amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem
+            sit clita <br />
+            duo justo magna dolore erat amet
+            <br />
+            <br />
+            Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet
+            est <br />
+            diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy
+            <br />
+            clita sit at, sed sit sanctus dolor eos.
+          </p>
+        
+       <img id="img" src="./Images/team-1.jpg" alt="">
+          <h5 style="color: black;"> Jhon Doe</h5>
+        <p>Seo & Founder</p>
+
+          <button class="hover-button">Read Me</button>
+        </div>
+      </div>
+    </section>
+    </section>
+    <section>
+      <h6 class="double-underline" style="color: hsl(203, 100%, 50%);display: flex; justify-content: center;padding-top: 50PX;">
+       <strong>SERVICES</strong> </h6>
+       <h1 > <strong style="display: flex; justify-content: center;align-items: center;
+       padding-top: 50px;color: black;font-size: 50px;padding-bottom: 40px;
+       ">We Focuse On Making The <br/>
+       Best In All Sectors</strong></h1>
+    </section>
+    <section>
+      <div class="card-container">
+        <div class="cardss">
+          <img  src="./Images/service-1 (1).jpg" alt="Card 1">
+          <h2> <center style="padding-top:20px;">Web Design </center></h2>
+
+        </div>
+        <div class="cardss">
+          <img src="./Images/service-2.jpg" alt="Card 1">
+          <h2> <center style="padding-top: 20px;">App Development</center></h2>
+
+        </div>
+        <div class="cardss">
+          <img src="./Images/service-3.jpg" alt="Card 1">
+          <h2> <center style="padding-top:20px;">SEO Optimization</center></h2>
+        </div>
+        <section>
+          <div class="card-container">
+            <div class="cardss">
+              <img src="./Images/service-4.jpg" alt="Card 1">
+              <h2> <center style="padding-top:20px;">Social Marketing </center></h2>
+    </div>
+    <div class="cardss">
+      <img src="./Images/service-5.jpg" alt="Card 1">
+      <h2> <center style="padding-top: 20px;">Email Marketing </center></h2>
+
+    </div>
+    <div class="cardss">
+      <img src="./Images/service-6.jpg" alt="Card 1">
+      <h2> <center style="padding-top: 20px;">PPC Advertising </center></h2>
+
+    </div>
+            </div>
+        </section>
+    </section>
+    </section>
+
+      <h6  class="double-underline" style=" font-size: 20px; color: hsl(203, 100%, 50%) ;display: flex; justify-content: center;padding-top: 50px;">
+       <strong> WHY CHOOSE US </strong></h6>
+      <section class="sectionThree" id="About">
+        <div class="sectionThreetext">
+        <div class="sectionThreeImage">
+          <div class="ImageLeft" style="width: 80%; border-radius: 20px;">
+            <img src="./Images/feature.jpg" alt="" />
+         </div>
+         </div>
+         
+            <div class="text" style="padding-right: 30px;">
+        <h1 style="color: black;">Why People Trust Us? <br> Learn About Us!</h1>
+        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam <br> amet
+           diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita <br> duo justo magna dolore erat amet
+
+        </p>
+      
+         </div>
+         
+       </div> 
+       
+        </section>   
+        <h6  class="double-underline" style=" font-size: 20px; color: hsl(203, 100%, 50%) ;display: flex; justify-content: center;padding-top: 50px;">
+          <strong> OUR PROJECTS </strong></h6>
+          <h1 > <strong style="display: flex; justify-content: center;align-items: center;
+            padding-top: 50px;color: black;font-size: 50px;padding-bottom: 40px;
+            ">Learn More About Our<br/>
+ Complete Projects</strong></h1>
+ <div class="card-containerS">
+  <div class="cardsS">
+    <img  src="./Images/project-1.jpg" alt="Card 1">
+    <h2  style="padding-top:20px;">UI / UX Design </h2>
+    <p style="color: #777;">Digital agency website <br>design and development
+</div>
+<div class="cardsS">
+  <img  src="./Images/project-2.jpg" alt="Card 1">
+  <h2 style="padding-top:20px;">UI / UX Design </h2>
+  <p style="color: #777;">Digital agency website <br>design and development
+</div>
+<div class="cardsS">
+  <img  src="./Images/project-3.jpg" alt="Card 1">
+  <h2 style="padding-top:20px;">UI / UX Design</h2>
+  <p style="color: #777;">Digital agency website <br>design and development
+</div>
+<div class="cardsS">
+  <img  src="./Images/project-4.jpg" alt="Card 1">
+  <h2 style="padding-top:20px;">UI / UX Design</h2>
+  <p style="color: #777;">Digital agency website <br>design and development
+  </p>
+</div>
+  </div>
+
+  <h6  class="double-underline" style=" font-size: 20px; color: hsl(203, 100%, 50%) ;display: flex; justify-content: center;padding-top: 50px;">
+    <strong> OUR TEAM </strong></h6>
+    <h1 > <strong style="display: flex; justify-content: center;align-items: center;
+      padding-top: 50px;color: black;font-size: 50px;padding-bottom: 40px;
+      ">We Are A Creative Team For<br/>Your Dream Project
+</strong></h1>
+<div class="image-container">
+  <div>
+    <img src="./Images/team-1.jpg" alt="Image 1" class="rounded-image">
+ <a href="#" style="text-decoration: none; color: black;">
+    <h2 style="padding-left: 15%;">John Sapphire</h2>
+  <p style="padding-left:25%;"> UI/UX Designer</p></a>
+  </div>
+ <div>
+  <img src="./Images/team-2 (1).jpg" alt="Image 2" class="rounded-image">
+ <a href="#" style="text-decoration: none; color: black;">
+  <h2 style="padding-left: 15%;">Diana Hazel</h2>
+  <p style="padding-left:25%;"> Director</p></a>
+ </div>
+<div>
+  <img src="./Images/team-3.jpg" alt="Image 3" class="rounded-image">
+  <a href="#" style="text-decoration: none; color: black;">
+  <h2 style="padding-left: 15%;">Jack William</h2>
+  <p style="padding-left:25%;">Project Manager</p></a>
+</div>
+</div>
+<div>
+
+  <h6  class="double-underline" style=" font-size: 20px; color: hsl(203, 100%, 50%) ;display: flex; justify-content: center;padding-top: 50px; margin-bottom: 50px;">
+    <strong> TESTIMONIAL </strong></h6>
+</div>
+<div>
+  
+<h1><center style="font-weight: bold;">  WHAT OUR CLIENTS SAYS!</center></h1>
+<div class="bt-cards">
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Ryle</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="btn btn-primary">Click Here</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Blossom</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="btn btn-primary">Click Here</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Marshall</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <a href="#" class="btn btn-primary">Click Here</a>
+  </div>
+</div>
+</div>
+<footer class="footer">
+  <div class="container">
+      <div class="footer-section">
+          <h3>Address</h3>
+          <p>123 Street, New York, USA</p>
+          <p>+012 345 67890</p>
+          <p>info@example.com</p>
+          <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+      </div>
+      <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Support</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h3>Gallery</h3>
+          <div class="gallery">
+              <img src="./Images/project-1.jpg" alt="Gallery Image">
+              <img src="./Images/project-2.jpg" alt="Gallery Image">
+              <img src="./Images/project-3.jpg" alt="Gallery Image">
+              <img src="./Images/project-4.jpg" alt="Gallery Image">
+              <img src="./Images/project-5.jpg" alt="Gallery Image">
+              <img src="./Images/project-6.jpg" alt="Gallery Image">
+              <img src="./Images/project-7.jpg" alt="Gallery Image">
+              <img src="./Images/project-8.jpg" alt="Gallery Image">
+
+          </div>
+      </div>
+      <div class="footer-section">
+          <h3>Newsletter</h3>
+          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <form class="newsletter-form">
+              <input type="email" placeholder="Your email">
+              <button type="submit">SignUp</button>
+          </form>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; Your Site Name, All Rights Reserved.</p>
+      <p>Designed By <a href="#">HTML Codex</a> | Distributed By <a href="#">ThemeWagon</a></p>
+  </div>
+</footer>
+  
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
